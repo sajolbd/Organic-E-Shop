@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.nav-item a{
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.nav-item a:hover{
+    color: rgb(20,219,20);
+}
+.navbar-brand{
+    height: 50px;
+    width: 100px;
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20,219,20);
+    background-color: transparent;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+}
+.search:focus{
+    outline: none;
+    box-shadow: none;
+    border: 2px solid rgb(20,219,20);
+    border-right: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20,219,20);
+    color: white;
+    border-radius: 0 20px 20px 0;
+    transition: .05s ease-in-out;
+}
+.btn1:hover{
+    background-color: rgb(55, 124, 55);
+}
+.fa-cart-shopping{
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    margin-right: 10px;
+    transition: .5s;
+}
+.fa-cart-shopping:hover{
+    color: rgb(20,219,20);
+}
+/* NAVBAR */
+
+/* HOME SECTION */
+.main{
+    background-image: url(../Images/m1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.main p:nth-child(1){
+    /* margin-top: 100px; */
+    font-weight: 600;
+}
+.main h1{
+    font-size: 5rem;
+}
+ .mbtn1{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    background-color: rgb(20,219,20);
+    border-radius: 50px;
+    transition: 0.5s;
+}
+.mbtn1:hover{
+    background-color: rgb(55, 124, 55);
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20,219,20);
+    display: inline-block;
+}
+
+/* HOME SECTION */
+
+/* ABOUT SECTION */
+.about{
+    background-image: url(../Images/abut.jpg);
+    background-size: cover;
+    height: 88vh;
+    width: 100%;
+}
+.about p:nth-child(1){
+    /* margin-top: 100px; */
+    font-weight: 600;
+}
+.about h1{
+    font-size: 3rem;
+}
+/* ABOUT SECTION */
+
+/* WELCOME SECTION */
+.welcome{
+    background: rgb(20,219,20);
+}
+.line2{
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+.welcome h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.welcome card{
+    border: none;
+    cursor: pointer;
+}
+.welcome i{
+    font-size: 45px;
+    color: rgb(20,219,20);
+}
+.welcome h2{
+    font-weight: lighter;
+    padding: 10px 0;
+}
+/* WELCOME SECTION */
+
+/* PRODUCT SECTION */
+.star{
+    text-align: end;
+    color: orange;
+}
+.products card{
+    border: none;
+}
+.head{
+    font-weight: 400;
+    margin: 0;
+}
+.price{
+    color: rgb(155, 155, 155);
+}
+.btnc{
+    height: 50px;
+    width: 50%;
+    border: none;
+    outline: none;
+    color: white;
+    background: rgb(20,219,20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: .4s ease;
+}
+.btnc:hover{
+    outline: none;
+    border: 1px solid rgb(20,219,20);
+    color:rgb(20,219,20);
+    background: transparent;
+    border-radius: 50px;
+}
+/* PRODUCT SECTION */
+
+/* DISCOUNT SECTION */
+.discount{
+    background: rgb(20,219,20);
+    color: white;
+}
+.dbtn{
+    height: 45px;
+    width: 75%;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: .4s ease;
+}
+.dbtn:hover{
+    border: 1px solid white;
+    background-color: rgb(141, 141, 141);
+}
+/* DISCOUNT SECTION */
+
+/* BEST PRODUCTS */
+.best-products h4{
+    font-size: 15px;
+}
+.best-products .card{
+    border: none;
+}
+.best-products .card:hover{
+    background: rgb(20,219,20);
+    color: white;
+}
+.best-products i{
+    font-size: 35px;
+    padding: 15px;
+}
+/* BEST PRODUCTS */
+
+/* ARRIVAL SECTION */
+.arrival i{
+    color: orange;
+}
+.arrival .card{
+    border-radius: 0;
+    border: none;
+}
+/* ARRIVAL SECTION */
+
+/* FOOTER SECTION */ 
+.footer{
+    background-color: rgb(226, 216, 216);
+}
+.s1 i{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+.s1 i:hover{
+    background-color: rgb(20,219,20);
+    border: none;
+}
+.footer p{
+    color: rgb(13,172,13);
+    font-weight: bold;
+}
+/* FOOTER SECTION */ 
